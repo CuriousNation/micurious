@@ -52,6 +52,7 @@ GEM
       execjs
     coffee-script-source (1.7.1)
     columnize (0.8.9)
+    concurrent-ruby (1.2.0)
     database_cleaner (1.2.0)
     debugger (1.6.8)
       columnize (>= 0.3.1)
@@ -72,7 +73,8 @@ GEM
     ffi (1.9.3)
     flickraw (0.9.8)
     hike (1.2.3)
-    i18n (0.6.11)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
     jasmine (2.0.2)
       jasmine-core (~> 2.0.0)
       phantomjs
@@ -85,8 +87,8 @@ GEM
     jquery-rails (3.1.1)
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
-    jquery-ui-rails (4.1.2)
-      railties (>= 3.1.0)
+    jquery-ui-rails (6.0.0)
+      railties (>= 3.2.16)
     js-test-driver-rails (0.4.3)
       json
       rake
@@ -101,14 +103,14 @@ GEM
     mime-types (1.25.1)
     mini_portile (0.6.0)
     minitest (4.7.5)
-    multi_json (1.10.1)
+    multi_json (1.15.0)
     mysql2 (0.3.16)
     nokogiri (1.6.3.1)
       mini_portile (= 0.6.0)
     phantomjs (1.9.7.1)
     polyglot (0.3.5)
-    rack (1.5.2)
-    rack-test (0.6.2)
+    rack (1.5.5)
+    rack-test (0.6.3)
       rack (>= 1.0)
     rails (4.0.0)
       actionmailer (= 4.0.0)
@@ -124,7 +126,7 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     raindrops (0.13.0)
-    rake (10.3.2)
+    rake (13.0.6)
     rdoc (4.1.1)
       json (~> 1.4)
     ref (1.0.5)
@@ -186,15 +188,15 @@ GEM
     therubyracer (0.12.0)
       libv8 (~> 3.16.14.0)
       ref
-    thor (0.19.1)
-    thread_safe (0.3.4)
+    thor (1.2.1)
+    thread_safe (0.3.6)
     tilt (1.4.1)
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
     turbolinks (2.2.2)
       coffee-rails
-    tzinfo (0.3.40)
+    tzinfo (0.3.61)
     uglifier (2.5.3)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
@@ -225,7 +227,7 @@ DEPENDENCIES
   jasmine
   jbuilder (~> 1.2)
   jquery-rails
-  jquery-ui-rails (~> 4.1.0)
+  jquery-ui-rails (~> 6.0.0)
   js-test-driver-rails (~> 0.4.3)
   launchy
   mysql2 (~> 0.3.13)
