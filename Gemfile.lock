@@ -63,7 +63,7 @@ GEM
     email_validator (1.4.0)
       activemodel
     erubis (2.7.0)
-    execjs (2.2.1)
+    execjs (2.8.1)
     factory_girl (4.2.0)
       activesupport (>= 3.0.0)
     factory_girl_rails (4.2.1)
@@ -90,7 +90,7 @@ GEM
     js-test-driver-rails (0.4.3)
       json
       rake
-    json (1.8.1)
+    json (1.8.6)
     kgio (2.9.2)
     launchy (2.4.2)
       addressable (~> 2.3)
@@ -195,7 +195,7 @@ GEM
     turbolinks (2.2.2)
       coffee-rails
     tzinfo (0.3.40)
-    uglifier (2.5.3)
+    uglifier (2.7.2)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
     unicorn (4.8.3)
